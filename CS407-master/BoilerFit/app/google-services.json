@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1011955971003",
+    "firebase_url": "https://boilerfit-9dfb8.firebaseio.com",
+    "project_id": "boilerfit-9dfb8",
+    "storage_bucket": "boilerfit-9dfb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011955971003:android:e380aae72fc5b346",
+        "android_client_info": {
+          "package_name": "com.moufee.boilerfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011955971003-39amkvcdp2a5ss44gj2jcn2nl7qeoteg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlr9Y81wtQ7Xh225z_F0tEvdbNez0-D5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
