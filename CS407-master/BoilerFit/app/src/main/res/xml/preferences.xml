@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="pref_password"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:password="true"
+        android:inputType="textPassword"
+        android:title="Password" />
+    <MultiSelectListPreference
+        android:key="pref_allergies"
+        android:title="Allergies"
+        android:entries="@array/allergens"
+        android:entryValues="@array/allergens" />
+    <MultiSelectListPreference
+        android:key="pref_favorite_activities"
+        android:title="Favorite Activities"
+        android:entries="@array/activities"
+        android:entryValues="@array/activities" />
+    <SwitchPreference
+        android:key="pref_geofence_notifications"
+        android:title="@string/pref_title_geofence_notifications"
+        android:summary="@string/pref_summary_geofence_notifications"
+        android:defaultValue="false" />
+    <TimePickerPreference
+        android:key="pref_breakfast_notification_time"
+        android:defaultValue="08:30"
+        android:title="Breakfast Notification Time"
+        app:pref_hourFormat="auto"
+        app:pref_pickerTime="08:00"
+        app:pref_summaryHasTime="%s" />
+    <TimePickerPreference
+        android:key="pref_lunch_notification_time"
+        android:defaultValue="11:00"
+        android:title="Lunch Notification Time"
+        app:pref_hourFormat="auto"
+        app:pref_summaryHasTime="%s" />
+    <TimePickerPreference
+        android:key="pref_dinner_notification_time"
+        android:title="Dinner Notification Time"
+        android:defaultValue="17:00"
+        app:pref_hourFormat="auto"
+        app:pref_pickerTime="17:00"
+        app:pref_summaryHasTime="%s" />
+    <TimePickerPreference
+        android:key="pref_corec_notification_time"
+        android:defaultValue="08:30"
+        android:title="CoRec Notification Time"
+        app:pref_hourFormat="auto"
+        app:pref_pickerTime="08:30"
+        app:pref_summaryHasTime="%s" />
+</PreferenceScreen>

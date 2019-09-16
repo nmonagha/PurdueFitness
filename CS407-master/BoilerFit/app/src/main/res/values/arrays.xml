@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allergens">
+        <item>
+        Eggs
+        </item>
+        <item>
+            Fish
+        </item>
+        <item>
+            Gluten
+        </item>
+        <item>
+            Milk
+        </item>
+        <item>
+            Peanuts
+        </item>
+        <item>
+            Shellfish
+        </item>
+        <item>
+            Soy
+        </item>
+        <item>
+            Tree Nuts
+        </item>
+        <item>
+            Wheat
+        </item>
+    </string-array>
+    <string-array name="activities">
+        <item>
+            Badminton
+        </item>
+        <item>
+            Volleyball
+        </item>
+        <item>
+            Basketball
+        </item>
+        <item>
+            Racquetball
+        </item>
+        <item>
+            Soccer
+        </item>
+        <item>
+            Climbing
+        </item>
+        <item>
+            Table Tennis
+        </item>
+        <item>
+            Wrestling
+        </item>
+        <item>
+            Group Exercise
+        </item>
+        <item>
+            Water Sports
+        </item>
+        <item>
+            Jogging
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BoilerFit</string>
+    <string name="title_home">Home</string>
+    <string name="title_menus">Menus</string>
+    <string name="title_corec">Corec</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="action_log_out">Log Out</string>
+    <string name="provide_your_bio">Provide your bio.</string>
+    <string name="what_allergies_do_you_have">What allergies do you have?</string>
+    <string name="submit">Submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="corec_availability">Corec Availability</string>
+    <string name="winsdor">Winsdor</string>
+    <string name="_40">40</string>
+    <string name="_winsdor">Winsdor</string>
+    <string name="_ford">Ford</string>
+    <string name="_wiley">Wiley</string>
+    <string name="_earhart">Earhart</string>
+    <string name="_hilly">Hillenbrand</string>
+    <string name="dining_menu">Dining Menu</string>
+    <color name="brown">#EFE6D2</color>
+    <color name="darkbrown">#9D968D</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_a_dining_court">Select a Dining Court</string>
+    <string name="action_submit">Submit</string>
+    <string name="action_dislike">Dislike</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="pref_title_geofence_notifications">Location-based Notifications</string>
+    <string name="pref_summary_geofence_notifications">Send notifications when entering a dining court.</string>
+
+    <string name="geofence_notification_title">Eating Now?</string>
+    <string name="geofence_notification_text">Check out the menu options for %s.</string>
+</resources>
