@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dining.DiningFragment"
+    android:background="#F9FBE7"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dining_court_name_text_view"
+        tools:text="Dining Court" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/meal_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/meal_pager_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+    </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

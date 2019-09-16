@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/gradientbackground"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/editFriend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/add_friend"
+        android:layout_marginLeft="15dp"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/profilePictureFriendsList"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:textColor="#ffffff"
+        android:text="Sydney Davidson"
+        android:singleLine="false"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.CorecFragment">
+
+    <android.support.v7.widget.AppCompatCheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/corec"
+        android:textStyle="bold"
+        android:textColor="#455A64"
+        android:text="Select an Activity"
+        android:textSize="30sp">
+
+
+    </android.support.v7.widget.AppCompatCheckedTextView>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/favo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkbrown"
+                android:text="Favorites"
+                android:textAlignment="center"
+                android:textColor="@color/browser_actions_text_color"
+                android:textSize="30dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:paddingTop="10dp"
+                android:id="@+id/recycler_view_corec_favo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkbrown"
+                android:text="Activity"
+                android:textAlignment="center"
+                android:textColor="@color/browser_actions_text_color"
+                android:textSize="30dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_corec"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsList"
+    android:id="@+id/friendslists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+            <SearchView
+                android:id="@+id/searchFriends"
+                android:layout_width="350dp"
+                android:layout_height="45dp"></SearchView>
+            <ImageView
+                android:id="@+id/new_friends"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/friends_icon"
+                android:layout_width="33dp"
+                android:layout_height="39dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/friendslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>
